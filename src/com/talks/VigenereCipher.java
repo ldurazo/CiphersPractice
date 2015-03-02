@@ -1,6 +1,14 @@
 package com.talks;
 
 public class VigenereCipher implements Cipher {
+
+    public static final String VIGENERE_CIPHER = "VIGENERE";
+
+    @Override
+    public String getName() {
+        return VIGENERE_CIPHER;
+    }
+
     /**
      *
      * @param message is the message to encrypt.

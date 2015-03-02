@@ -5,6 +5,7 @@ package com.talks;
  */
 public interface Cipher {
     String PUBLIC_KEY ="ABCDE";
+    public String getName();
     public String encrypt(String message, final String key);
     public String decrypt(String message, final String key);
     public String encrypt(String message);

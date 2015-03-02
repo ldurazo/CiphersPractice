@@ -1,6 +1,13 @@
 package com.talks;
 
 public class CaesarCipher implements Cipher{
+    public static final String CAESAR_CIPHER = "CAESAR";
+
+    @Override
+    public String getName() {
+        return CAESAR_CIPHER;
+    }
+
     protected int shiftSize = 3;
 
     protected int getShiftSize() {
