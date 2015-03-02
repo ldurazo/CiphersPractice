@@ -1,5 +1,7 @@
 package com.talks;
-
+/**
+ * Created by ldurazo on 3/1/15.
+ */
 public class VigenereCipher implements Cipher {
 
     public static final String VIGENERE_CIPHER = "VIGENERE";
