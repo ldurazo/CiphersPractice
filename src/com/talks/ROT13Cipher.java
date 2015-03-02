@@ -12,6 +12,11 @@ public class ROT13Cipher extends CaesarCipher {
     }
 
     @Override
+    public String decrypt(String message) {
+        return super.encrypt(message);
+    }
+
+    @Override
     public String getName() {
         return ROT13_CIPHER;
     }
